@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // //cách 1
+    // let arr = [1,2,3,4]
+    // //cách 2
+    // let arr1 = new Array(1,2,3,4)
+    //
+    // console.log(arr1[2])
+    // console.log(arr1[1])
+    //
+    // let arr2 = new Array(5)
+    // console.log(arr2.length)
+
+
+    // for (let num in arr1) {
+    //     console.log(num)
+    // }
+    //
+    // for (let num of arr1) {
+    //     console.log(num)
+    // }
+
+    // for (let i = 0; i < arr1.length; i++) {
+    //     console.log(arr1[i])
+    // }
+
+    // for (let i = arr1.length-1; i >= 0; i--) {
+    //     console.log(arr1[i])
+    // }
+    //
+    //mảng 2 chiều
+    // let array = [[1,2,3,4],[1,2,3,55],[1,2,3,4]]
+    // for (let num of array[1]) {
+    //         console.log(num)
+    //     }
+    // console.log(array.length)
+    // console.log(array[1].length)
+    // console.log(array[1][3])
+    // for (let i = 0; i < array.length; i++) {
+    //     for (let j = 0; j < array[i].length; j++) {
+    //         (array[i][j])
+    //     }
+    //     document.write("<br>")
+    // }
+    //
+
+    let array1 = [1, 2, 3, 4]
+    let array2 = [5, 6, 7, 8]
+    let array3 = [11, 6, 56, 8]
+    // array3[4] = 100
+    //push: thêm ptu vào cuối mảng (có thể dùng thêm length)
+    // array1.push(100)
+    // //pop: xóa ptu cuối của mảng
+    // array2.pop()
+    //shift: xóa ptu vào đầu mảng
+    // array1.shift()
+    //unshift: thêm ptu ở đầu mảng
+    // array1.unshift(100)
+    //join: nối các phần tử của mảng thành chuỗi
+    // array1.join()
+    // array1.join("-")
+    // //reverse: đảo mảng
+    // array2.reverse()
+    // //sort: sắp xếp mảng
+    // array3.sort()
+    // //concat: nối mảng
+    let arr = array2.concat(array3)
+    // //toString: chuyển các ptu thành dạng chuỗi
+    console.log(arr.toString())
+    // splice: xóa 1 hoặc nhiều phần tử ở vị trí chỉ định
+    // slice: xóa 1 số phần từ được chỉ định
+</script>
+</body>
+</html>
